@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(white, lightblue);
+    margin: 0;
+    height: 100%;
+}
+
+/* div {
+    border: 2px red solid;
+} */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.home-div {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.home-btn {
+    display: block;
+    height: 5rem;
+    width: 5rem;
+    filter: invert(100);
+}
+
+.carousel {
+    display: grid;
+    grid-template-columns: 10rem auto 10rem;
+    justify-items: center;
+    align-content: center;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    display: none;
+}
+
+.show-img {
+    display: block;
+}
+
+.leftarrow {
+    display: flex;
+    align-items: center;
+}
+
+.rightarrow {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    display: block;
+    height: 4rem;
+    width: auto;
+    justify-self: center;
+
+    
+}
+
+#l-arrow {
+    
+}
+
+#r-arrow {
+   
+    transform: rotate(180deg);
+}

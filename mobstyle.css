@@ -4,10 +4,6 @@ body {
     background-color: black;
 }
 
-#black-space {
-
-}
-
 .mobile-container {
     width: 360px;
     height: 640px;
@@ -26,8 +22,6 @@ body {
 
 .dropdown-content {
     display: none;
-    /* align-self: flex-end; */
-    /* background-color: lightblue; */
     z-index: 1;
     justify-self: end;
     width: 30%;
